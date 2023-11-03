@@ -1,6 +1,67 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
 // Modules
+export * from './breadcrumb/breadcrumb';
+
+export * from './clear-refinements/clear-refinements';
+
+export * from './current-refinements/current-refinements';
+
+export * from './hierarchical-menu/hierarchical-menu';
+
+export * from './hits-per-page/hits-per-page';
+
+export * from './hits/hits';
+
+export * from './index-widget/index-widget';
+
+export * from './infinite-hits/infinite-hits';
+
+export * from './instantsearch/instantsearch';
+
+export * from './menu/menu';
+
+export * from './numeric-menu/numeric-menu';
+
+export * from './pagination/pagination';
+
+export * from './range-slider/range-slider';
+
+export * from './refinement-list/refinement-list';
+
+export * from './search-box/search-box';
+
+export * from './sort-by/sort-by';
+
+export * from './rating-menu/rating-menu';
+
+export * from './stats/stats';
+
+export * from './toggle/toggle';
+
+export * from './highlight/highlight';
+
+export * from './reverse-highlight/reverse-highlight';
+
+export * from './snippet/snippet';
+
+export * from './reverse-snippet/reverse-snippet';
+
+export * from './range-input/range-input';
+
+export * from './panel/panel';
+
+export * from './configure/configure';
+
+export * from './configure-related-items/configure-related-items';
+
+export * from './query-rule-custom-data/query-rule-custom-data';
+
+export * from './query-rule-context/query-rule-context';
+
+export * from './voice-search/voice-search';
+
+// Modules
 import { NgAisBreadcrumbModule } from './breadcrumb/breadcrumb.module';
 export { NgAisBreadcrumbModule };
 
@@ -142,7 +203,7 @@ export class NgAisRootModule {}
 
 @NgModule({ imports: NGIS_MODULES, exports: NGIS_MODULES })
 export class NgAisModule {
-  public static forRoot(): ModuleWithProviders<NgAisRootModule> {
+  static forRoot(): ModuleWithProviders<NgAisRootModule> {
     return { ngModule: NgAisRootModule };
   }
 }

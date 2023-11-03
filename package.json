@@ -1,5 +1,5 @@
 {
-  "name": "angular-instantsearch",
+  "name": "@engineering11/angular-instantsearch",
   "version": "4.4.1",
   "description": "Lightning-fast search for Angular apps, by Algolia.",
   "license": "MIT",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/algolia/angular-instantsearch.git"
+    "url": "https://github.com/engineering11/angular-instantsearch.git"
   },
   "homepage": "https://github.com/algolia/angular-instantsearch",
   "bugs": {
@@ -137,9 +137,9 @@
     "zone.js": "0.11.4"
   },
   "peerDependencies": {
-    "@angular/common": ">=5.0.0 <16.0.0",
-    "@angular/core": ">=5.0.0 <16.0.0",
-    "@angular/platform-browser": ">=5.0.0 <16.0.0",
-    "@angular/platform-browser-dynamic": ">=5.0.0 <16.0.0"
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0",
+    "@angular/platform-browser": ">=12.0.0",
+    "@angular/platform-browser-dynamic": ">=12.0.0"
   }
 }
